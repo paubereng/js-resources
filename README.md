@@ -1,0 +1,2 @@
+# js-resources
+JS resources
