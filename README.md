@@ -10,7 +10,7 @@ console.log(number)
 ```
 
 ### Double bang bang (double negation)
-To ensure that everything that return is a boolean value.
+To ensure that everything that returns is a boolean value.
 ```javascript
 const var_1 = null;
 const var_2 = 0;
@@ -29,6 +29,15 @@ console.log(!!var_4);
 // <- true
 console.log(!!var_5);
 // <- true
+```
+### Remove duplicate values in array
+Sets only allows unique values to be stored.
+```javascript
+const persons = ['Pau', 'Pau', 'Dani', 'Marc', 'Carlos'];
+const newPersons = [...new Set(persons)];
+
+console.log(newPersons);
+// <- ['Pau','Dani','Marc','Carlos'];
 ```
 
 ### Rest operator
